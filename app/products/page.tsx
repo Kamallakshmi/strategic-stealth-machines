@@ -17,13 +17,13 @@ const Products = () => {
         return (
           <div className="transition-opacity duration-500 ease-in-out opacity-100 transform-gpu">
             <h3 className="text-2xl font-semibold text-blue-500 text-center mb-3">
-              AI Driven Decisions in Manufacturing
+              Business to Business
             </h3>
             <p className="text-lg font-medium text-white text-center mb-5">
-              Our AI-driven applications for manufacturing help optimize
-              processes, increase efficiency, and reduce costs.
+              We help brands accelerate their growth across marketplaces by
+              optimizing their creative solutions.
             </p>
-            <ul className="mt-5 text-lg lg:pl-16 text-white list-none space-y-2">
+            {/* <ul className="mt-5 text-lg lg:pl-16 text-white list-none space-y-2">
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
                 Predictive Maintenance for IoT Devices
               </li>
@@ -39,7 +39,7 @@ const Products = () => {
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
                 Energy Optimization in IoT Networks
               </li>
-            </ul>
+            </ul> */}
           </div>
         );
 
@@ -47,13 +47,13 @@ const Products = () => {
         return (
           <div className="transition-opacity duration-500 ease-in-out opacity-100 transform-gpu">
             <h3 className="text-2xl font-semibold text-blue-500 text-center mb-3">
-              AI Driven Decisions in Automotive
+              Business to Consumer
             </h3>
             <p className="text-lg font-medium text-white text-center mb-5">
-              Our AI solutions for the automotive industry focus on safety,
-              automation, and enhanced customer experiences.
+              We aimed at delivering business services and products directly to
+              an end-user
             </p>
-            <ul className="mt-5 text-lg lg:pl-16 text-white list-none space-y-2">
+            {/* <ul className="mt-5 text-lg lg:pl-16 text-white list-none space-y-2">
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
                 Predictive Maintenance for IoT Devices
               </li>
@@ -69,7 +69,7 @@ const Products = () => {
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
                 Energy Optimization in IoT Networks
               </li>
-            </ul>
+            </ul> */}
           </div>
         );
 

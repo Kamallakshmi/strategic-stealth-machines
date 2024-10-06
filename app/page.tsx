@@ -25,21 +25,20 @@ const Home = () => {
       </section>
 
       {/* Header Text and WaterDropGrid */}
-      <section className="container mx-auto selection:first-letter:mx-auto flex flex-row items-center justify-between py-10 md:my-20">
+      <section className="container mx-auto h-96 selection:first-letter:mx-auto flex flex-row items-center justify-center py-10 md:my-20">
         {/* Text Section */}
-        <div className="relative z-10  flex flex-col text-white md:w-2/3 p-5 text-balance">
-          <h1 className="text-6xl font-bold leading-tight text-blue-500">
-            Strategic Machines
+        <div className="relative flex flex-col text-white lg:w-2/3 p-5 text-center leading-loose text-balance">
+          <h1 className="md:text-5xl text-4xl leading-normal text-blue-500">
+            Strategic Stealth Machines
           </h1>
-          <p className="text-2xl mt-2">
-            Delivering Trusted AI Business Solutions for Conversational Commerce
+          <p className="md:text-2xl text-lg mt-2 text-center leading-loose">
+            Accelerating Evolution of AI innovation
           </p>
-          <p className="text-xl mt-1 text-gray-100">
+          {/* <p className="text-lg mt-1 text-gray-100 leading-loose">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ab
             quibusdam explicabo. Nihil, consectetur. Corporis itaque, quaerat,
-            saepe ab laboriosam eius explicabo sunt ullam accusantium est quas
-            aperiam enim! Illo?
-          </p>
+            saepe ab laboriosam eius explicabo sunt ullam
+          </p> */}
         </div>
 
         {/* WaterDropGrid Animation */}
@@ -51,13 +50,13 @@ const Home = () => {
       {/* Solutions */}
       <section className="container mx-auto flex flex-col space-y-5 my-5 md:my-16 py-10">
         <BubbleText text="Our Solutions" />
-        <div className="text-white grid lg:grid-cols-7 ">
-          <div className="lg:col-span-7 flex flex-col justify-center items-center p-10">
-            <p className="mb-5 text-balance text-lg text-center leading-relaxed tracking-wide">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ab
-              quibusdam explicabo. Nihil, consectetur. Corporis itaque, quaerat,
-              saepe ab laboriosam eius explicabo sunt ullam accusantium est quas
-              aperiam enim! Illo?
+        <div className="md:px-10 text-white grid lg:grid-cols-7 ">
+          <div className="mx-5 lg:col-span-7 flex flex-col justify-center items-center">
+            <p className="mb-5 text-normal text-lg text-center leading-relaxed tracking-wide">
+              Providing AI driven solutions for Manufacturing Process
+              optimizations and equipment&apos;s Real Time maintenance, Product
+              development, Testing, Maintenance and IOT Solutions for
+              Intelligent Transportation System.
             </p>
             <Link
               href="/solutions"
@@ -67,7 +66,7 @@ const Home = () => {
               Learn More
             </Link>
           </div>
-          <div className="lg:col-span-7 grid lg:grid-cols-3 gap-4 p-10 place-content-center">
+          <div className="lg:col-span-7 grid lg:grid-cols-3 gap-4 p-10">
             {solutions.map((solution) => {
               return (
                 <SolutionsCard
@@ -86,7 +85,7 @@ const Home = () => {
       {/* Products */}
       <section className="container mx-auto flex flex-col space-y-5 my-5 py-10">
         <BubbleText text="Our Products" />
-        <div className="px-7 py-5 flex flex-wrap justify-center gap-4">
+        <div className="md:px-10 py-5 flex flex-wrap justify-center lg:justify-start gap-4">
           <ProductCard
             imageURL={products[0].imageURL}
             alt={products[0].alt}

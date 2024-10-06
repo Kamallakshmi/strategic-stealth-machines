@@ -34,13 +34,16 @@ const ProductCard: React.FC<ProductType> = (props) => {
   const { imageURL, alt, content, href, title } = props;
 
   return (
-    <div className="text-white flex lg:flex-row flex-col justify-center items-center">
+    <div
+      className="text-white flex w-full lg:flex-row flex-col lg:justify-start
+    justify-center items-center"
+    >
       {/* Pass size instead of width and height */}
-      <div className="mb-5">
+      <div className="mb-5 md:w-1/3 w-full">
         <TiltImage src={imageURL} alt={alt} size={400} />
       </div>
 
-      <div className="flex flex-col justify-center lg:items-start items-center pl-10 pr-10 ">
+      <div className="flex flex-col md:w-2/3 w-full justify-center lg:items-start items-center  md:px-10">
         <h4 className="text-xl font-semibold text-white mb-3">{title}</h4>
         <p className="mb-5 text-balance lg:text-left text-center leading-relaxed tracking-wide">
           {content}

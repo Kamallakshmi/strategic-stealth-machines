@@ -35,12 +35,14 @@ const SlideTabs = () => {
     <nav className="relative flex items-center w-full h-16 justify-between px-5">
       {/* Company logo */}
       <div className="flex items-center">
-        <Image
-          src={"/logo.png"}
-          alt={"Strategic Stealth Machines"}
-          width={200}
-          height={80}
-        />
+        <Link href="/">
+          <Image
+            src={"/logo.png"}
+            alt={"Strategic Stealth Machines"}
+            width={200}
+            height={80}
+          />
+        </Link>
       </div>
 
       {/* Hamburger icon for small screens */}
@@ -88,7 +90,7 @@ const SlideTabs = () => {
               Products
             </span>
           </Tab>
-          <Tab setPosition={setPosition} href="/contact">
+          {/* <Tab setPosition={setPosition} href="/contact">
             <span
               className={cn({
                 "bg-white text-navy px-3 rounded-full py-1.5":
@@ -97,7 +99,7 @@ const SlideTabs = () => {
             >
               Contact
             </span>
-          </Tab>
+          </Tab> */}
           <Cursor position={position} />
         </ul>
       </div>
@@ -130,14 +132,14 @@ const SlideTabs = () => {
                 Products
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="/contact"
                 className="text-navy hover:bg-navy hover:text-white block px-5 py-2"
               >
                 Contact
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       )}

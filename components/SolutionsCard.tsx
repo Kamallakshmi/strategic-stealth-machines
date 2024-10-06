@@ -28,11 +28,13 @@ const SolutionsCard: React.FC<SolutionType> = (props) => {
 
   return (
     <div className="flex flex-col justify-center items-center space-y-5">
-      <TiltImage
-        src={imageURL}
-        alt={alt}
-        size={300} // Pass the size you want for TiltImage
-      />
+      <div>
+        <TiltImage
+          src={imageURL}
+          alt={alt}
+          size={300} // Pass the size you want for TiltImage
+        />
+      </div>
       <Link
         href={href}
         className="underline underline-offset-8 w-fit tracking-wide"

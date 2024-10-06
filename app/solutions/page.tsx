@@ -20,27 +20,41 @@ const Solutions = () => {
         return (
           <div className="transition-opacity duration-500 ease-in-out opacity-100 transform-gpu">
             <h3 className="text-2xl font-semibold text-blue-500 text-center mb-3">
-              AI Driven Decisions in Manufacturing
+              We build AI Driven Decisions in Manufacturing
             </h3>
-            <p className="text-lg font-medium text-white text-center mb-5">
-              Our AI-driven applications for manufacturing help optimize
-              processes, increase efficiency, and reduce costs.
+            <p className="text-lg font-medium text-white text-justify text-normal mb-5">
+              Predictive maintenance (PM) has become a indispensable solution
+              for manufacturers who have only to gain from being able to predict
+              the next failure of a machine. PM allows for drastic reductions in
+              costly unplanned downtime, as well as for extending the Remaining
+              Useful Life (RUL) of production machines and equipment&apos;s.
+              Customers expect faultless products, forcing manufacturers to keep
+              on upgrading their quality. Energy Savings involves accessing
+              machine or an entire environment for the optimization of settings
+              and run-time for reducing the energy consumption. Looking into the
+              future, our AI driven applications focus on the areas given below.
             </p>
-            <ul className="mt-5 text-lg lg:pl-16 text-white list-none space-y-2">
+            <p className="font-medium text-white mb-5">
+              Our AI-driven applications steps into
+            </p>
+            <ul className="mt-5 lg:pl-16 text-white list-none space-y-2">
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
-                Predictive Maintenance for IoT Devices
+                Predictive Maintenance for Equipments
               </li>
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
-                Real-Time Data Analysis
+                Enhanced Quality Inspection
               </li>
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
-                IoT-Driven Process Automation
+                Enhancing Operator Safety through AI
               </li>
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
-                AI-driven Asset Performance Management
+                AI driven Asset Performance management
               </li>
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
-                Energy Optimization in IoT Networks
+                Real Time Energy Optimisation
+              </li>
+              <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
+                Process Optimizations to reduce Losses
               </li>
             </ul>
           </div>
@@ -50,27 +64,34 @@ const Solutions = () => {
         return (
           <div className="transition-opacity duration-500 ease-in-out opacity-100 transform-gpu">
             <h3 className="text-2xl font-semibold text-blue-500 text-center mb-3">
-              AI Driven Decisions in Automotive
+              We build AI Driven Decisions in Automotive
             </h3>
-            <p className="text-lg font-medium text-white text-center mb-5">
+            <p className="text-lg font-medium text-white text-justify mb-5">
               Our AI solutions for the automotive industry focus on safety,
               automation, and enhanced customer experiences.
             </p>
+            <p className="font-medium text-white mb-5">
+              Our AI-driven applications steps into
+            </p>
             <ul className="mt-5 text-lg lg:pl-16 text-white list-none space-y-2">
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
-                Predictive Maintenance for IoT Devices
+                R&D - Emissions control/fuel efficiency improvement /power
+                efficiency (for electric cars)
               </li>
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
-                Real-Time Data Analysis
+                Supply Chain - Automated visual inspection
               </li>
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
-                IoT-Driven Process Automation
+                Supply Chain - Predict and forecast orders thereby reducing
+                excess stock
               </li>
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
-                AI-driven Asset Performance Management
+                Assembly / Manufacturing - Predictive maintenance for equipment
+                to reduce manufacturing downtime
               </li>
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
-                Energy Optimization in IoT Networks
+                Marketing / Sales - Provide recommendations of new and
+                innovative products and services
               </li>
             </ul>
           </div>
@@ -80,28 +101,36 @@ const Solutions = () => {
         return (
           <div className="transition-opacity duration-500 ease-in-out opacity-100 transform-gpu">
             <h3 className="text-2xl font-semibold text-blue-500 text-center mb-3">
-              AI Driven Decisions in IoT Solutions
+              We provide IoT Solutions
             </h3>
-            <p className="text-lg font-medium text-white text-center mb-5">
-              Our AI solutions for IoT focus on real-time monitoring,
-              data-driven insights, and process automation for improved
-              outcomes.
+            <p className="text-lg font-medium text-white text-justify mb-5">
+              Our solutions for IoT focus on real-time monitoring, data-driven
+              insights, and process automation for improved outcomes.
+            </p>
+            <p className="font-medium text-white mb-5">
+              Our IoT applications steps into
             </p>
             <ul className="mt-5 text-lg lg:pl-16 text-white list-none space-y-2">
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
-                Predictive Maintenance for IoT Devices
+                Intelligent Transport System
+              </li>
+              <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
+                Ultimate Convenience with Control Units and Consoles
+              </li>
+              <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
+                Display and Monitoring System
+              </li>
+              <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
+                Tracking and Alert Systems
+              </li>
+              <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
+                Advanced Security Systems
               </li>
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
                 Real-Time Data Analysis
               </li>
               <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
                 IoT-Driven Process Automation
-              </li>
-              <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
-                AI-driven Asset Performance Management
-              </li>
-              <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:h-2 before:w-2 before:rounded-full before:bg-gradient-to-br  before:-translate-y-1/2 before:shadow-[0_0_4px_2px_rgba(255,215,0,0.8)]">
-                Energy Optimization in IoT Networks
               </li>
             </ul>
           </div>
