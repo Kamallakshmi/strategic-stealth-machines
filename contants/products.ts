@@ -7,7 +7,7 @@ export const products: ProductType[] = [
     content: "Customized solutions for every applications / processes",
   },
   {
-    imageURL: "/B2C.png",
+    imageURL: "/b2c.jpg",
     alt: "B2C",
     href: "/products",
     title: "B2C",

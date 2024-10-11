@@ -63,7 +63,7 @@ const TiltImage: React.FC<TiltImageProps> = ({ src, alt, size }) => {
         alt={alt}
         width={size}
         height={size}
-        className="rounded-xl shadow-lg"
+        className="rounded-xl shadow-lg size-64 object-cover"
         style={{ transform: "translateZ(50px)", transformStyle: "preserve-3d" }}
       />
     </motion.div>

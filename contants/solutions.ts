@@ -1,21 +1,33 @@
 export const solutions: SolutionType[] = [
   {
-    imageURL: "/manufacture.jpg",
-    alt: "Manufacturing Solutions",
+    imageURL: "/ai-solutions.jpg",
+    alt: "AI Solutions",
     href: "/solutions",
-    title: "Manufacturing",
-  },
-  {
-    imageURL: "/automotive.jpg",
-    alt: "Automotive Solutions",
-    href: "/solutions",
-    title: "Automotive",
+    title: "AI Solutions",
   },
   {
     imageURL: "/iot.jpg",
-    alt: "IOT Solutions",
+    alt: "AI Research",
     href: "/solutions",
-    title: "IOT Solutions",
+    title: "AI Research",
+  },
+  {
+    imageURL: "/automotive.jpg",
+    alt: "IOT and Industrial Automation",
+    href: "/solutions",
+    title: "IOT and Industrial Automation",
+  },
+  {
+    imageURL: "/drone.jpg",
+    alt: "Automotive and Aerospace / Drone",
+    href: "/solutions",
+    title: "Automotive and Aerospace / Drone",
+  },
+  {
+    imageURL: "/it-solutions.jpg",
+    alt: "Custom IT Solutions",
+    href: "/solutions",
+    title: "Custom IT Solutions",
   },
 ];
 

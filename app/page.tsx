@@ -66,7 +66,7 @@ const Home = () => {
               Learn More
             </Link>
           </div>
-          <div className="lg:col-span-7 grid lg:grid-cols-3 gap-4 p-10">
+          <div className="lg:col-span-7 flex flex-wrap justify-center items-center h-full gap-20 p-10">
             {solutions.map((solution) => {
               return (
                 <SolutionsCard
@@ -85,7 +85,7 @@ const Home = () => {
       {/* Products */}
       <section className="container mx-auto flex flex-col space-y-5 my-5 py-10">
         <BubbleText text="Our Products" />
-        <div className="md:px-10 py-5 flex flex-wrap justify-center lg:justify-start gap-4">
+        <div className="md:px-10 py-5 flex flex-wrap justify-center items-center h-full gap-20 p-10">
           <ProductCard
             imageURL={products[0].imageURL}
             alt={products[0].alt}

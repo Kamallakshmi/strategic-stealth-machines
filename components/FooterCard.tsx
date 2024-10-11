@@ -34,6 +34,18 @@ const FooterCard: React.FC = () => {
             <li>Predict realistic results for their processes</li>
             <li>Enhance customer centric processes</li>
           </ul>
+          <p className="relative z-10 text-center lg:text-left text-md leading-relaxed text-gray-300">
+            Our IoT-based products and IT solutions deliver cutting-edge
+            technology for transport, e-commerce and industrial sectors.
+          </p>
+          <p className="relative z-10 text-center lg:text-left text-md leading-relaxed text-gray-300">
+            Whether you&apos;re looking to enhance fleet management, streamline
+            passenger booking, or build intelligent AI agents, we offer
+            customized, scalable solutions to meet your business needs and
+            ensure sustainable growth. With our AI expertise and deep industry
+            knowledge, we are committed to delivering innovative solutions that
+            drive operational excellence.
+          </p>
         </div>
 
         {/* Middle Section 1: Quick Links */}

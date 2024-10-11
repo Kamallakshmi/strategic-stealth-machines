@@ -36,10 +36,10 @@ const ProductCard: React.FC<ProductType> = (props) => {
   return (
     <div
       className="text-white flex w-full lg:flex-row flex-col lg:justify-start
-    justify-center items-center"
+    justify-center items-center gap-5"
     >
       {/* Pass size instead of width and height */}
-      <div className="mb-5 md:w-1/3 w-full">
+      <div className="flex-1">
         <TiltImage src={imageURL} alt={alt} size={400} />
       </div>
 

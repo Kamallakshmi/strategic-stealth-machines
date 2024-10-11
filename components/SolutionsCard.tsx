@@ -27,8 +27,8 @@ const SolutionsCard: React.FC<SolutionType> = (props) => {
   const { imageURL, alt, href, title } = props;
 
   return (
-    <div className="flex flex-col justify-center items-center space-y-5">
-      <div>
+    <div className="flex flex-col justify-center items-center gap-5">
+      <div className="h-auto">
         <TiltImage
           src={imageURL}
           alt={alt}
