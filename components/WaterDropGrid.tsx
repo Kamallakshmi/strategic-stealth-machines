@@ -98,7 +98,7 @@ import anime from "animejs";
 
 const WaterDropGrid: React.FC = () => {
   return (
-    <div className="relative flex justify-center px-8 py-12">
+    <div className="relative flex justify-center -top-7">
       <DotGrid />
     </div>
   );
@@ -177,7 +177,7 @@ const DotGrid: React.FC = () => {
           onClick={handleDotClick}
         >
           <div
-            className="dot-point h-2 w-2 rounded-full bg-gradient-to-b from-slate-600 to-slate-400 opacity-10 group-hover:from-indigo-400 group-hover:to-slate-200"
+            className="dot-point h-2 w-2 rounded-full bg-gradient-to-b from-amber-600 to-amber-400 opacity-10 group-hover:from-indigo-400 group-hover:to-amber-200"
             data-index={index}
           />
         </div>

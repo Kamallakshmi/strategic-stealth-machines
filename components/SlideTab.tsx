@@ -37,10 +37,11 @@ const SlideTabs = () => {
       <div className="flex items-center">
         <Link href="/">
           <Image
-            src={"/logo.png"}
+            src={"/ssm-logo.png"}
             alt={"Strategic Stealth Machines"}
             width={200}
             height={80}
+            className="py-8"
           />
         </Link>
       </div>

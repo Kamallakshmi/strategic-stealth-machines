@@ -15,11 +15,11 @@ const FooterCard: React.FC = () => {
             </span> */}
           {/* <div className="flex items-center"> */}
           <Image
-            src={"/logo.png"}
+            src={"/ssm-logo-white.png"}
             alt={"Strategic Stealth Machines"}
             width={200}
             height={80}
-            className="brightness-200"
+            className="brightness-90 py-4"
           />
           {/* </div> */}
           <p className="relative z-10 text-center lg:text-left text-md leading-relaxed text-gray-300">

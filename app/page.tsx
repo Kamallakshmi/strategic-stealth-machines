@@ -46,9 +46,20 @@ const Home = () => {
           <WaterDropGrid />
         </div>
       </section>
+      <Link
+        href={"#solutions"}
+        className="w-full flex items-center justify-center text-white"
+      >
+        <div className="field">
+          <div className="scroll"></div>
+        </div>
+      </Link>
 
       {/* Solutions */}
-      <section className="container mx-auto flex flex-col space-y-5 my-5 md:my-16 py-10">
+      <section
+        id="solutions"
+        className="container mx-auto flex flex-col space-y-5 my-5 md:my-16 py-10"
+      >
         <BubbleText text="Our Solutions" />
         <div className="md:px-10 text-white grid lg:grid-cols-7 ">
           <div className="mx-5 lg:col-span-7 flex flex-col justify-center items-center">
