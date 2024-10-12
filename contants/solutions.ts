@@ -29,6 +29,12 @@ export const solutions: SolutionType[] = [
     href: "/solutions",
     title: "Custom IT Solutions",
   },
+  {
+    imageURL: "/ems.jpg",
+    alt: "Electronics manufacturing services",
+    href: "/solutions",
+    title: "Electronics Manufacturing Services",
+  },
 ];
 
 export type SolutionType = {

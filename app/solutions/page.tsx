@@ -592,6 +592,102 @@ const Solutions = () => {
                   </DialogContent>
                 </Dialog>
               );
+            if (solution.title === "Electronics Manufacturing Services")
+              return (
+                <Dialog key={index}>
+                  <DialogTrigger>
+                    <div
+                      key={index}
+                      className={`flex flex-col h-fit justify-center items-center space-y-5 transition-transform duration-300 ease-in-out transform cursor-pointer`}
+                    >
+                      <div className="relative p-0.5 bg-gradient-to-r from-yellow to-indigo-950 rounded-lg overflow-hidden">
+                        <div className="absolute inset-1 conic-gradient-border rounded-lg animate-border-spin"></div>
+                        <div className="relative bg-navy rounded-lg">
+                          <Image
+                            src={solution.imageURL}
+                            alt={solution.alt}
+                            width={300}
+                            height={300}
+                            className="rounded-lg shadow-lg size-40 md:size-60 object-cover"
+                          />
+                        </div>
+                      </div>
+                      <span className="relative text-center tracking-wide text-white">
+                        {solution.title}
+                        <span className="absolute left-0 bottom-0 w-full h-[1px] bg-gradient-to-r from-yellow via-indigo-900 to-navy"></span>
+                      </span>
+                    </div>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-4xl overflow-y-auto max-h-screen">
+                    <DialogHeader>
+                      <DialogTitle className="text-4xl font-bold text-blue-500">
+                        Electronics Manufacturing Services
+                      </DialogTitle>
+                    </DialogHeader>
+                    <main className="py-10 px-8 bg-gray-100">
+                      <section className="max-w-7xl mx-auto">
+                        <h2 className="text-2xl font-bold text-gray-900">
+                          Design and Engineering
+                        </h2>
+                        <p className="mt-4 text-lg text-gray-700">
+                          Assistance with product design, prototyping, and
+                          engineering to ensure manufacturability and compliance
+                          with industry standards.
+                        </p>
+                      </section>
+                      <section className="max-w-7xl mx-auto mt-12">
+                        <h2 className="text-2xl font-bold text-gray-900">
+                          Printed Circuit Board Assembly (PCBA)
+                        </h2>
+                        <p className="mt-4 text-lg text-gray-700">
+                          Manufacturing and assembling printed circuit boards,
+                          which are the foundational building blocks of
+                          electronic devices.
+                        </p>
+                      </section>
+                      <section className="max-w-7xl mx-auto mt-12">
+                        <h2 className="text-2xl font-bold text-gray-900">
+                          System Assembly and Integration
+                        </h2>
+                        <p className="mt-4 text-lg text-gray-700">
+                          Assembling the complete electronic system, including
+                          housing, wiring, and integration of various components
+                        </p>
+                      </section>
+                      <section className="max-w-7xl mx-auto mt-12">
+                        <h2 className="text-2xl font-bold text-gray-900">
+                          Supply Chain Management
+                        </h2>
+                        <p className="mt-4 text-lg text-gray-700">
+                          Handling procurement, logistics, and inventory
+                          management to streamline the production process and
+                          reduce costs.
+                        </p>
+                      </section>
+                      <section className="max-w-7xl mx-auto mt-12">
+                        <h2 className="text-2xl font-bold text-gray-900">
+                          Testing and Quality Control
+                        </h2>
+                        <p className="mt-4 text-lg text-gray-700">
+                          Implementing rigorous testing protocols to ensure
+                          product reliability, performance, and compliance with
+                          regulatory requirements.
+                        </p>
+                      </section>
+                      <section className="max-w-7xl mx-auto mt-12">
+                        <h2 className="text-2xl font-bold text-gray-900">
+                          After-Sales Services
+                        </h2>
+                        <p className="mt-4 text-lg text-gray-700">
+                          Providing repair, refurbishment, and warranty services
+                          to extend product life cycles and enhance customer
+                          satisfaction.
+                        </p>
+                      </section>
+                    </main>
+                  </DialogContent>
+                </Dialog>
+              );
           })}
         </div>
       </section>
