@@ -16,6 +16,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Strategic Stealth Machines",
+  authors: [{ name: "Kamal-Simplzone" }, { name: "Kishore-Simplzone" }],
   keywords:
     "AI, Solutions, Research, IOT, Automations, IT Solutions, Aerospace, Drones, Projects",
   description:
