@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Strategic Stealth Machines",
   authors: [{ name: "Kamal-Simplzone" }, { name: "Kishore-Simplzone" }],
   keywords:
-    "AI, Solutions, Research, IOT, Automations, IT Solutions, Aerospace, Drones, Projects",
+    "AI, Solutions, Research, IOT, Automations, IT Solutions, Aerospace, Drones, Projects, ITS",
   description:
     "Our IoT-based products and IT solutions deliver cutting-edge technology for transport, e-commerce and industrial sectors. Whether you're looking to enhance fleet management, streamline passenger booking, or build intelligent AI agents, we offer customized, scalable solutions to meet your business needs and ensure sustainable growth. With our AI expertise and deep industry knowledge, we are committed to delivering innovative solutions that drive operational excellence.",
 };
