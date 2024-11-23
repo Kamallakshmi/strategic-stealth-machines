@@ -34,16 +34,19 @@ const SlideTabs = () => {
   return (
     <nav className="relative flex items-center w-full h-16 justify-between px-5">
       {/* Company logo */}
-      <div className="flex items-center">
+      <div className="flex items-center relative">
         <Link href="/">
           <Image
-            src={"/ssm-logo.png"}
+            src={"/logo.png"}
             alt={"Strategic Stealth Machines"}
             width={200}
             height={80}
             className="py-8"
           />
         </Link>
+        <small className="absolute -right-5 top-12 text-xs font-semibold text-blue-900">
+          TM
+        </small>
       </div>
 
       {/* Hamburger icon for small screens */}

@@ -144,7 +144,7 @@ const DotGrid: React.FC = () => {
       ],
       opacity: [
         { value: 0.8, easing: "easeOutSine", duration: 250 }, // Temporarily brighten
-        { value: 0.1, easing: "easeInOutQuad", duration: 500 }, // Return to faded state
+        { value: 0.25, easing: "easeInOutQuad", duration: 500 }, // Return to faded state
       ],
       delay: anime.stagger(100, {
         grid: [gridWidth!, gridHeight!],
@@ -177,7 +177,7 @@ const DotGrid: React.FC = () => {
           onClick={handleDotClick}
         >
           <div
-            className="dot-point h-2 w-2 rounded-full bg-gradient-to-b from-amber-600 to-amber-400 opacity-10 group-hover:from-indigo-400 group-hover:to-amber-200"
+            className="dot-point h-2 w-2 rounded-full bg-gradient-to-b from-amber-200 to-amber-700 opacity-25 group-hover:from-indigo-400 group-hover:to-amber-200"
             data-index={index}
           />
         </div>

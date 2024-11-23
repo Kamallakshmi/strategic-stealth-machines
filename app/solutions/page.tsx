@@ -691,6 +691,15 @@ const Solutions = () => {
           })}
         </div>
       </section>
+      <section className="flex justify-center items-center">
+        <Image
+          src={"/its-features.jpeg"}
+          alt={"ITS Features"}
+          width={500}
+          height={500}
+          className="py-8 w-auto h-full"
+        />
+      </section>
       <footer>
         <FooterCard />
       </footer>
