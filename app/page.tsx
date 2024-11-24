@@ -42,9 +42,9 @@ const Home = () => {
         </div>
 
         {/* WaterDropGrid Animation */}
-        <div className="absolute right-0 z-0">
+        {/* <div className="absolute right-0 z-0">
           <WaterDropGrid />
-        </div>
+        </div> */}
       </section>
       <Link
         href={"#solutions"}

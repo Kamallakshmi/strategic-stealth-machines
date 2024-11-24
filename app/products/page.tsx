@@ -40,6 +40,15 @@ const Products = () => {
                 Energy Optimization in IoT Networks
               </li>
             </ul> */}
+            <div className="flex justify-center items-center">
+              <Image
+                src={"/its-features.jpeg"}
+                alt={"ITS Features"}
+                width={500}
+                height={500}
+                className="py-8 w-auto h-full"
+              />
+            </div>
           </div>
         );
 
