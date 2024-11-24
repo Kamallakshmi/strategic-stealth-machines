@@ -3,8 +3,7 @@ import BubbleText from "@/components/BubbleText";
 import FooterCard from "@/components/FooterCard";
 import ProductCard from "@/components/ProductCard";
 import { SlideTabsExample } from "@/components/SlideTab"; // Adjust the path as needed
-import SolutionsCard from "@/components/SolutionsCard";
-import WaterDropGrid from "@/components/WaterDropGrid"; // Import the WaterDropGrid component
+import SolutionsCard from "@/components/SolutionsCard"; // Import the WaterDropGrid component
 import { products } from "@/contants/products";
 import { solutions } from "@/contants/solutions";
 import Link from "next/link";
