@@ -44,8 +44,8 @@ const SlideTabs = () => {
             className="py-8"
           />
         </Link>
-        <small className="absolute -right-5 top-12 text-xs font-semibold text-blue-900">
-          TM
+        <small className="absolute -right-3 top-12 text-xs font-semibold text-blue-900">
+          &reg;
         </small>
       </div>
 

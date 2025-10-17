@@ -15,7 +15,7 @@ const FooterCard: React.FC = () => {
             </span> */}
           {/* <div className="flex items-center"> */}
           <Image
-            src={"/ssm-logo-white.png"}
+            src={"/ssm-logo-white-r.png"}
             alt={"Strategic Stealth Machines"}
             width={200}
             height={80}
